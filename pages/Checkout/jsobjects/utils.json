@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Checkout",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\n\tonOpen: async () => {\n\t\tawait storeValue('order',appsmith.store.cart)\n\t\tawait storeValue('cart',[])\n\t}\n\n\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Checkout_utils",
+  "deleted": false,
+  "gitSyncId": "6304101b22c743180838ee07_630fbd16cf04c5033323187d"
+}
